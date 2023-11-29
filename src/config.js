@@ -10,6 +10,7 @@ export default {
 		slider_gap : 1.666,
 		slider_girth: 11,
 		slider_knob: 13,
+		slider_fontsize:16,
 		slider_anchor: {x:1,y:5},
 		playbutton_size: 120,
 		playbutton_anchor:{x:3,y:2},
