@@ -1,7 +1,7 @@
 {
   "name": "@explorables/scotts_world",
   "title": "Scott's World",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "CC-BY-4.0",
   "description": "A model for pattern formation in microbial communities.",
   "repository": {
