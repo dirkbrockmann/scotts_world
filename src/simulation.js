@@ -10,7 +10,6 @@ function iterate (display,controls,config) {
 	let done = false
 	done = model_go();
 	visual_go(display,config);
-	console.log(done)
 	 if (done) {
  		controls.select("#button_play").transition(1000).style("opacity",0)
 		controls.select("#button_play").style("pointer-events","none") 
