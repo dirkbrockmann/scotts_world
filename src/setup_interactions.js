@@ -11,6 +11,7 @@ import cfg from "./config.js"
 import param from "./parameters.js"
 import resetparameters from "./reset_parameters.js"
 import {iterate,initialize,update} from "./simulation.js"
+import {styles} from "d3-widgets"
 
 
 var timer = {}
@@ -23,8 +24,9 @@ const startstop = (display,controls,config) => {
 
 	controls.select("#slider_initial_nutrient_concentration")
 		.transition(1000).style("opacity",ct.go.value()?0:1)
-	controls.select("#slider_initial_nutrient_concentration").select(".track-overlay")
+	controls.select("#slider_initial_nutrient_concentration").selectAll("*")
 		.style("pointer-events",ct.go.value()?"none":null)
+
 }
 
 // this function is called by index.js to connect actions and update functions to the explorables.
