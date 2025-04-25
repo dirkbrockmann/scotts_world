@@ -17,6 +17,6 @@ export default {
 		resetbutton_anchor:{x:8,y:2}
 	},
 	simulation: {
-		delay:0
+		delay:10
 	}
 }
