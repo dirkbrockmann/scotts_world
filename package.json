@@ -4,7 +4,7 @@
   "subtitle": "Growth patterns of microbial communities",
   "description": "This explorable illustrates a model for pattern formation in microbial communities. Depending on parameters like food concentration, medium resistance and others, the emerging pattern exhibit different characteristics.",
   "author": "Dirk Brockmann (https://synosy.github.io)",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "CC-BY-4.0",
   "repository": {
     "type": "git",
